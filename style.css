@@ -332,7 +332,7 @@ body {
 
 .develop {
   background-color: #363853 !important;
-  border: 1px solid darkgreen;
+  border: 1px solid #09ed09;
   border-radius: 25px !important;
   width: 130px !important;
   /* height: 40px !important; */
@@ -340,18 +340,18 @@ body {
   border-collapse: collapse;
   text-align: center;
   text-decoration: none;
-  color: darkgreen;
+  color: #09ed09;
   /* left: 0; */
 }
 
 .develop:hover {
-  background-color: darkgreen !important;
+  background-color:#09ed09 !important;
   color: #363853;
 }
 
 .crypto {
   background-color: #363853 !important;
-  border: 1px solid purple;
+  border: 1px solid #ec05ec;
   border-radius: 25px !important;
   width: 130px !important;
   /* height: 40px !important; */
@@ -359,18 +359,18 @@ body {
   border-collapse: collapse;
   text-align: center;
   text-decoration: none;
-  color: purple;
+  color: #ec05ec;
   /* left: 0; */
 }
 
 .crypto:hover {
-  background-color: purple !important;
+  background-color: #ec05ec !important;
   color: #363853;
 }
 
 .trends {
   background-color: #363853 !important;
-  border: 1px solid blue;
+  border: 1px solid #06f7f6;
   border-radius: 25px !important;
   width: 130px !important;
   /* height: 40px !important; */
@@ -378,18 +378,18 @@ body {
   border-collapse: collapse;
   text-align: center;
   text-decoration: none;
-  color: blue;
+  color: #06f7f6;
   /* left: 0; */
 }
 
 .trends:hover {
-  background-color: blue !important;
+  background-color: #06f7f6 !important;
   color: #363853;
 }
 
 .trends2 {
   background-color: #363853 !important;
-  border: 1px solid rgb(22, 22, 128);
+  border: 1px solid rgb(8 132 245);
   border-radius: 25px !important;
   width: 130px !important;
   /* height: 40px !important; */
@@ -397,12 +397,12 @@ body {
   border-collapse: collapse;
   text-align: center;
   text-decoration: none;
-  color: rgb(22, 22, 128);
+  color: rgb(8 132 245);
   /* left: 0; */
 }
 
 .trends2:hover {
-  background-color: rgb(22, 22, 128) !important;
+  background-color:rgb(8 132 245) !important;
   color: #363853;
 }
 
@@ -454,9 +454,13 @@ body {
 }
 
 .mar {
-  margin-top: 70px !important;
+  margin-top: 90px !important;
 }
 
 .btn {
   border-radius: 45px;
+}
+
+.padd3 {
+padding-top: 50px!important;
 }
