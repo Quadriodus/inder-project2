@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inder Project</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body class="flex-container">
+    <div class="container-sm pt-3 sidebar flex-column mar">
+      <div class="logo padd">
+        <!-- <p class="cir"></p> -->
+        <p class="size ind"><i class="bi bi-circle-fill p-1"></i>inder</p>
+      </div>
+
+      <div class="pt-3 d-flex flex-column">
+        <a href="#home" class="bars"
+          ><i class="bi bi-browser-safari p-2"></i>Dashboard</a
+        >
+        <a href="#news"><i class="bi bi-file-text p-2"></i>Posts</a>
+        <a href="#contact"><i class="bi bi-grid p-2"></i>Cartegories</a>
+        <a href="#about"><i class="bi bi-image p-2"></i>Media</a>
+        <a href="#about"><i class="bi bi-tv p-2"></i>Pages</a>
+      </div>
+
+      <div class="d-flex flex-column padd1">
+        <a href="#home"><i class="bi bi-person-bounding-box p-2"></i>Users</a>
+        <a href="#news"><i class="bi bi-gear p-2"></i>Settings</a>
+      </div>
+    </div>
+
+    <div class="container-sm main">
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid" style="justify-content: start">
+          <i class="bi bi-search"></i>
+          <input
+            class="searchbox"
+            type="search"
+            name="searchbox"
+            value=""
+            placeholder="Search"
+          />
+        </div>
+
+        <div class="container-fluid p-2" style="justify-content: end">
+          <select
+            class="text-white languages"
+            name="languagues"
+            id="languagues"
+          >
+            <option value="EN">EN</option>
+            <option value="CHN">CHN</option>
+            <option value="FRE">FRE</option>
+            <option value="ARA">ARA</option>
+            <option value="US">US</option>
+          </select>
+
+          <ul class="navbar-nav" style="justify-content: end">
+            <li class="nav-item">
+              <a class="nav-link notification" href="#"
+                ><i class="bi bi-bell-fill"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <img
+                  class="cats"
+                  src="/images/2df6dbe8ff3e019bc25c43617ba5150d.jpg"
+                  alt="cat-pic"
+                  width="40px"
+                  height="38px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-sm main">
+      <div class="d-flex justify-content-between">
+        <div>
+          <h1 class="dash">All posts</h1>
+        </div>
+
+        <div class="d-flex justify-content-between gap-3">
+          <div class="dropdown">
+            <button
+              type="button"
+              class="btn drop dropdown-toggle text-white"
+              data-bs-toggle="dropdown"
+            >
+              All Cartegories
+            </button>
+            <ul class="dropdown-menu drop">
+              <li><a class="dropdown-item" href="#">Queries</a></li>
+              <li><a class="dropdown-item" href="#">Answers</a></li>
+              <li><a class="dropdown-item" href="#">Solutions</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              type="button"
+              class="btn drop dropdown-toggle text-white"
+              data-bs-toggle="dropdown"
+            >
+              All Dates
+            </button>
+            <ul class="dropdown-menu drop">
+              <li><a class="dropdown-item" href="#">11 sept</a></li>
+              <li><a class="dropdown-item" href="#">23 nov</a></li>
+              <li><a class="dropdown-item" href="#">3 dec</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              type="button"
+              class="btn drop dropdown-toggle text-white"
+              data-bs-toggle="dropdown"
+            >
+              All Statuses
+            </button>
+            <ul class="dropdown-menu drop">
+              <li><a class="dropdown-item" href="#">Active</a></li>
+              <li><a class="dropdown-item" href="#">Pending</a></li>
+              <li><a class="dropdown-item" href="#">Deleted</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column">
+        <div class="pt-3 tabs">
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/Mixing-Colors.jpg"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="active">Active</span> -->
+            </div>
+
+            <div class="d-flex justify-content-between ali pt-3 p-2">
+              <div class="d-flex">
+                <p class="sec siz">11 sept at 12:30am</p>
+              </div>
+
+              <img
+                class="images2 p-2"
+                src="/images/images-16.jpeg"
+                width="50px"
+                height="50px"
+              />
+
+              <div class="d-flex">
+                <p class="sec text-white siz">Sabella Dhananjay</p>
+              </div>
+            </div>
+
+            <div class="p-2 top">
+              <h1 class="sizes">
+                10 Ukrainian Product IT<br />
+                Companies You Should Know
+              </h1>
+            </div>
+
+            <div class="d-flex justify-content-between ali pt-2 p-2">
+              <button class="develop">Development</button>
+
+              <div class="d-flex justify-content-between ali gap-3">
+                <div class="d-flex gap-1">
+                  <i class="bi bi-eye-fill"></i>
+                  <p class="text-white siz">14</p>
+                </div>
+                <div class="d-flex gap-1">
+                  <i class="bi bi-heart-fill"></i>
+                  <p class="text-white siz">7</p>
+                </div>
+                <div class="d-flex gap-1">
+                  <i class="bi bi-chat-text-fill"></i>
+                  <p class="text-white siz">6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/istockphoto-638820876-612x612.jpg"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="active">Active</span> -->
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between ali pt-3 p-2">
+                <div class="d-flex">
+                  <p class="sec siz">11 sept at 12:30am</p>
+                </div>
+
+                <img
+                  class="images2 p-2"
+                  src="/images/images-14.jpeg"
+                  width="50px"
+                  height="50px"
+                />
+
+                <div class="d-flex">
+                  <p class="sec text-white siz">Mokhtar Enver</p>
+                </div>
+              </div>
+
+              <div class="p-2 top">
+                <h1 class="sizes">
+                  Multichain Opportunities In<br />
+                  Blockchain Development Companies
+                </h1>
+              </div>
+
+              <div class="d-flex justify-content-between ali pt-2 p-2">
+                <button class="crypto">Crypto</button>
+
+                <div class="d-flex justify-content-between ali gap-3">
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-eye-fill"></i>
+                    <p class="text-white siz">27</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-heart-fill"></i>
+                    <p class="text-white siz">14</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-chat-text-fill"></i>
+                    <p class="text-white siz">5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/images-5.jpeg"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="pending">Pending</span> -->
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between ali pt-3 p-2">
+                <div class="d-flex">
+                  <p class="sec siz">11 sept at 12:30am</p>
+                </div>
+
+                <img
+                  class="images2 p-2"
+                  src="/images/images-15.jpeg"
+                  width="50px"
+                  height="50px"
+                />
+
+                <div class="d-flex">
+                  <p class="sec text-white siz">Anton Samu</p>
+                </div>
+              </div>
+
+              <div class="p-2 top">
+                <h1 class="sizes">
+                  VC Industry Trends That Will<br />
+                  Define 2021
+                </h1>
+              </div>
+
+              <div class="d-flex justify-content-between ali pt-2 p-2">
+                <button class="trends">Trends</button>
+
+                <div class="d-flex justify-content-between ali gap-3">
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-eye-fill"></i>
+                    <p class="text-white siz">-</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-heart-fill"></i>
+                    <p class="text-white siz">-</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-chat-text-fill"></i>
+                    <p class="text-white siz">-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 mt-3 tabs">
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/images.jpeg"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="active">Active</span> -->
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between ali pt-3 p-2">
+                <div class="d-flex">
+                  <p class="sec siz">11 sept at 12:30am</p>
+                </div>
+
+                <img
+                  class="images2 p-2"
+                  src="/images/images-13.jpeg"
+                  width="50px"
+                  height="50px"
+                />
+
+                <div class="d-flex">
+                  <p class="sec text-white siz">Anna Patrik</p>
+                </div>
+              </div>
+
+              <div class="p-2 top">
+                <h1 class="sizes">
+                  Reddit vs WallStreet: GameStop<br />
+                  Saga Explained
+                </h1>
+              </div>
+
+              <div class="d-flex justify-content-between ali pt-2 p-2">
+                <button class="trends2">Trends</button>
+
+                <div class="d-flex justify-content-between ali gap-3">
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-eye-fill"></i>
+                    <p class="text-white siz">18</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-heart-fill"></i>
+                    <p class="text-white siz">9</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-chat-text-fill"></i>
+                    <p class="text-white siz">2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/720916b22eb9283b6c840805b1ec6d1c.png"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="deleted">Deleted</span> -->
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between ali pt-3 p-2">
+                <div class="d-flex">
+                  <p class="sec siz">11 sept at 12:30am</p>
+                </div>
+
+                <img
+                  class="images2 p-2"
+                  src="/images/images-12.jpeg"
+                  width="50px"
+                  height="50px"
+                />
+
+                <div class="d-flex">
+                  <p class="sec text-white siz">Nata Kosareva</p>
+                </div>
+              </div>
+
+              <div class="p-2 top">
+                <h1 class="sizes">Hamburger Menu: Yes Or No?</h1>
+              </div>
+
+              <div class="d-flex justify-content-between ali pt-2 p-2">
+                <button class="design">Design</button>
+
+                <div class="d-flex justify-content-between ali gap-3">
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-eye-fill"></i>
+                    <p class="text-white siz">11</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-heart-fill"></i>
+                    <p class="text-white siz">4</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-chat-text-fill"></i>
+                    <p class="text-white siz">2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fieldbox flex-column">
+            <div>
+              <img
+                class="images"
+                src="/images/vivid-blurred-colorful-wallpaper-background_58702-3270.jpg.webp"
+                width="341"
+                height="130px"
+              />
+              <!-- <span class="active">Active</span> -->
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between ali pt-3 p-2">
+                <div class="d-flex">
+                  <p class="sec siz">11 sept at 12:30am</p>
+                </div>
+
+                <img
+                  class="images2 p-2"
+                  src="/images/images-11.jpeg"
+                  width="50px"
+                  height="50px"
+                />
+
+                <div class="d-flex">
+                  <p class="sec text-white siz">Micaela Roi</p>
+                </div>
+              </div>
+
+              <div class="p-2 top">
+                <h1 class="sizes">
+                  Native VS Cross-Platform<br />
+                  Mobile Development
+                </h1>
+              </div>
+
+              <div class="d-flex justify-content-between ali pt-2 p-2">
+                <button class="develop">Development</button>
+
+                <div class="d-flex justify-content-between ali gap-3">
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-eye-fill"></i>
+                    <p class="text-white siz">8</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-heart-fill"></i>
+                    <p class="text-white siz">-</p>
+                  </div>
+                  <div class="d-flex gap-1">
+                    <i class="bi bi-chat-text-fill"></i>
+                    <p class="text-white siz">-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
