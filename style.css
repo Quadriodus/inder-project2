@@ -57,11 +57,15 @@ body {
   color: white;
 }
 
-.bi-browser-safari:hover {
+a:hover i{
   color: purple;
 }
 
-.bi-file-text:hover {
+/* .bi-browser-safari:hover {
+  color: purple;
+} */`
+
+/* .bi-file-text:hover {
   color: purple;
 }
 
@@ -83,7 +87,7 @@ body {
 
 .bi-gear:hover {
   color: purple;
-}
+} */
 
 .bi-circle-fill {
   color: purple;
