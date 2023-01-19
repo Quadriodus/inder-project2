@@ -57,7 +57,7 @@ body {
   color: white;
 }
 
-a:hover i{
+a:hover i {
   color: purple;
 }
 
@@ -139,7 +139,9 @@ a:hover i{
   border-radius: 35px;
   height: 290px;
 }
-
+.imagecontainer {
+  position: relative;
+}
 .images {
   display: flex;
   border-top-left-radius: 35px;
@@ -147,7 +149,6 @@ a:hover i{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   /* text-align: center; */
-  position: relative;
 }
 
 .images2 {
@@ -169,9 +170,9 @@ a:hover i{
   position: relative;
 }
 
-.active {
-  background-color: rgb(122, 204, 0);
-  border: 1px solid rgb(122, 204, 0);
+.imagecontainer .active {
+  background-color: rgb(54 198 137);
+  border: 1px solid rgb(54 198 137);
   border: none;
   border-radius: 25px !important;
   width: 90px !important;
@@ -182,12 +183,16 @@ a:hover i{
   text-decoration: none;
   color: white;
   position: absolute;
+  bottom: 2%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   /* left: 0; */
 }
 
 .pending {
-  background-color: goldenrod;
-  border: 1px solid goldenrod;
+  background-color: #ffb548;
+  border: 1px solid #ffb548;
   border: none;
   border-radius: 25px !important;
   width: 90px !important;
@@ -198,12 +203,16 @@ a:hover i{
   text-decoration: none;
   color: white;
   position: absolute;
+  bottom: 2%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   /* right: 0; */
 }
 
 .deleted {
-  background-color: red;
-  border: 1px solid red;
+  background-color: #eb5626;
+  border: 1px solid #eb5626;
   border: none;
   border-radius: 25px !important;
   width: 90px !important;
@@ -214,6 +223,10 @@ a:hover i{
   text-decoration: none;
   color: white;
   position: absolute;
+  bottom: 2%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   /* left: 0; */
 }
 
@@ -228,7 +241,7 @@ a:hover i{
 
 .bars {
   font-weight: 600;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .padd1 {
@@ -242,7 +255,7 @@ a:hover i{
 .dash {
   font-size: 30px;
   font-weight: 600;
-  color: white
+  color: white;
 }
 
 .tabs {
@@ -258,7 +271,7 @@ a:hover i{
 .tabtext {
   text-align: center;
   font-weight: 600;
-  font-size: 25px
+  font-size: 25px;
 }
 
 .tabtext2 {
@@ -321,7 +334,7 @@ a:hover i{
 }
 
 .develop:hover {
-  background-color:#09ed09 !important;
+  background-color: #09ed09 !important;
   color: #363853;
 }
 
@@ -378,7 +391,7 @@ a:hover i{
 }
 
 .trends2:hover {
-  background-color:rgb(8 132 245) !important;
+  background-color: rgb(8 132 245) !important;
   color: #363853;
 }
 
@@ -438,7 +451,5 @@ a:hover i{
 }
 
 .padd3 {
-padding-top: 50px!important;
+  padding-top: 50px !important;
 }
-
-
